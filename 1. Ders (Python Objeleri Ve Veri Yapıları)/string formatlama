@@ -1,0 +1,14 @@
+## string formatlama
+
+name = 'Göz'
+surname = 'Dol'
+
+print('My name is {} {}'.format(name, surname)) # degiskenleri {icine yazar}
+print('My name is {1} {0}'.format(name, surname)) # köseli parantez icine belirtilen rakam sırasıyla degiskeni yazar.
+print('My name is {s} {n}'.format(n=name, s=surname)) # belirtilen harfler dogrultusunda degiskeni yazar.
+print('My name is {} {}'.format(name, surname))
+
+print(f"My name is {name} {surname}".format(name, surname)) # f string ile parantezleri doldurduk.
+
+result = 200 / 700
+print('the result is {r:7.4}'. format(r=result)) # float olan degiskeni formatladık...
