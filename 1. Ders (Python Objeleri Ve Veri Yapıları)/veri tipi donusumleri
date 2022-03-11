@@ -1,0 +1,64 @@
+## veri tipi donusumleri
+
+"""
+x = input('1.sayi: ')
+y = input('2.sayi: ')
+
+toplam = x + y
+
+print(toplam)
+
+"""                 # veri tipi belirtilmediği için yan yana düz yazıyor.
+
+x = input('1.sayi: ')
+y = input('2.sayi: ')
+
+print(type(x))
+print(type(y))
+
+toplam = int(x) + int(y)
+
+print(toplam)       # veri tipi belirtildiği için istediğimiz toplam sonucu veriyor.
+
+x = 2               # int.
+y = 4.8             # float
+isim = "Güney"      # str.
+online = True       # bool
+
+'''
+print(type(x)) 
+print(type(y)) 
+print(type(isim)) 
+print(type(online)) 
+
+'''                # veri tipi dönüşümü belirtilip yapıldı.
+# Type Conversion
+
+# int to float
+
+x = float(x)     # integer veri tipini floata çevirme.
+print(x)
+print(type(x))
+
+# float to int
+
+y = int(y)       # float veri tipini inte çevirme.
+print(y)
+print(type(y))
+
+result = x + y   # string olarak toplanmak istenirse, str(x) + str(y)
+print(result)
+print(type(result))
+
+# bool to str
+
+online = str(online)
+print(online)
+print(type(online))  # bool veri tipini stre çevirme.
+
+
+# bool to int
+
+online = int((online))
+print(online)
+print(type(online))  # bool veri tipini inte çevirme.
