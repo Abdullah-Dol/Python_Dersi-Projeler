@@ -1,0 +1,11 @@
+## degisken tanimlama
+
+alisinavpuan = 90   # 1. atanan degisken.
+
+ahmetsinavpuan = 80 # 2. atanan degisken.
+
+ekpuan = 0.5        # 3. atanan degisken.
+
+print(alisinavpuan - (alisinavpuan * ekpuan))     # degiskenlerin birlestirilmesi carpilmasi.
+
+print(ahmetsinavpuan - (ahmetsinavpuan * ekpuan)) # degiskenlerin birlestirilmesi carpilmasi.
