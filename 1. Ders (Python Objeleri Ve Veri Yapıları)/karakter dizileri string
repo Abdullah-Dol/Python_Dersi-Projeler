@@ -1,0 +1,22 @@
+## Karakter dizileri: string
+
+mname = "Abdullah"
+surname = "Dol"
+mage = 18
+
+print('my name is '+ mname + ' '+ surname + ' and \nI am '+ str(mage) + ' years old ') # age degiskeni sayi olduğundan kod hata verir kelime ile sayi toplanmadığından 'age' içinde belirtebilir yada str olarak ifade edilip yazılır...
+
+# \n cumleyi yarısından kesip alta yazar.
+
+mname = "Abdullah"
+surname = "Dol"
+mage = 18
+
+selamlama = 'my name is '+ mname + ' '+ surname + ' and \nI am '+ str(mage) + ' years old ' 
+
+print(selamlama) # belirttigimiz degisken uzerinden cikti aliyoruz.
+print(selamlama[0]) # strnin indeks kelime sayısını bulmak icin bu ifadeyi kullaniyoruz.
+print(len(selamlama)) # toplam kac karakter dizisi olduğunu hesaplar.
+print(selamlama[-1]) # sonda ki indeks harfini yazar.
+print(selamlama[3:]) # belirttiğimiz sayidan itibaren sona kadar hesaplama yapar.
+print(selamlama[4:40:3]) # sonda belirttiğimiz sayi kadar harf alir cumleyi tamamlar.
