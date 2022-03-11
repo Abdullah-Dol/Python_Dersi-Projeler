@@ -1,0 +1,40 @@
+## degisken tanımlama kuralları
+
+# rakam ile başlayamaz.
+
+sayi1 = 5  
+print(sayi1)   # 1. degisken atandı.
+
+sayi1 = 10
+print(sayi1)   # 2. degisken 1. degisken yerine gecer.
+
+sayi1 += 15
+print(sayi1)   # 3. degisken 2. degisken ile toplanır.
+
+# buyuk kucuk harf duyarliligi
+
+age = 40
+AGE = 50     
+
+print(age)
+print(AGE)  # burada ki tanımlanan degiskenler ayrı ayrı hesaplanır.
+
+# turkce karakter kullanmayalim
+
+yaş = 30    # yanlis.
+yas = 20    # dogru.
+
+x = 1           # int.
+y = 3.5        # float
+name = "Doğu"  # string
+ogrenci = True # bool - mantıksal veri tipi, True/False
+
+x, y, name, ogrenci, = (1, 3.5, "Doğu", True) # tek satırda topluca degisken ataması yapabilirsiniz.
+
+a = '10'
+b = '20'
+print(a+b) # burada ki degiskenler integer olsada ' olduğu için string olarak algılayıp, birleştiriyor. 30 => 1020
+
+isim = "Abdullah"
+soyisim = " Dol"      # degiskenler arası bosluk olmaz! _ kullanılabilir.
+print(isim + soyisim) # Abdullah Dol
