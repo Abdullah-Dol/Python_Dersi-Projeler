@@ -1,0 +1,15 @@
+## matematiksel operatorler
+
+print(4+8)         # + toplama islemini yapmamızı saglar.
+
+print(8-4)         # - cikarma islemini yapmamızı saglar.
+
+print(2*3)         # * carpma islemini yapmamızı saglar.
+
+print(6/9)         # / bolme islemini yapmamızı saglar.
+
+print(3**7)        # ** us alma islemini yapmamızı saglar.
+
+print(5%5)         # % mod islemini yapmamızı saglar.
+
+print(7//1)        # // tam bolme islemini yapmamızı saglar.
